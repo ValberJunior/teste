@@ -5,7 +5,7 @@ The GithubWorkflows plugin provides an alternative for manually triggering GitHu
 The plugin offers two distinct approaches to integrate with your component:
 
 <ul>
-  <li> On-demand workflows, which are configured via annotations in your project's <span><code>catalog-info.yaml</code></span>.</li>
+  <li> On-demand workflows, which are configured via annotations in your project's <marker>catalog-info.yaml</marker>.</li>
   <li>A complete listing of the workflows available in your project.</li>
 </ul>
 <br>
