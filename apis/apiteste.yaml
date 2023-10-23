@@ -9,7 +9,7 @@ metadata:
     - teste
 spec:
   type: openapi
-  lifecycle: production
+  lifecycle: prod
   owner: consumer
   definition: |-
     openapi: 3.0.0
