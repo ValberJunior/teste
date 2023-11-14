@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: "Enviroment2"
+  environment:
+    domain: fff.com
+    hostedZoneId: 12412415
+    vpc: e22-vpc
+    certManagerIssuerType: staging
+    certManagerEmail: user@teste.com
+  annotations:
+    github.com/project-slug: ValberJunior/Environment2
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"

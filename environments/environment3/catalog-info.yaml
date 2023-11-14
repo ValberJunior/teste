@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: "Enviroment3"
+  environment:
+    domain: globo.com
+    hostedZoneId: 444444
+    vpc: fvvv-vpc
+    certManagerIssuerType: production
+    certManagerEmail: admin@teste.com
+  annotations:
+    github.com/project-slug: ValberJunior/Environment3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: devops
+  lifecycle: production
+  owner: "group:default/admin"
