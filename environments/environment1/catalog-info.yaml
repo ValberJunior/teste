@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Environment
 metadata:
-  name: "Enviroment1"
+  name: "Enviroment-Platform"
   environment:
     k8s_version: 1.28
     cidr_block: 10.50.0.0/16
@@ -9,13 +9,13 @@ metadata:
     capacity_type: 111
     node_quantity: 8
     max_node_quantity: 3
-    domain: test.com
-    hosted_zone_id: sfdfsjfs
-    rolearn: testerole 
-    vpc: xpto-vpc
-    nginx: xpto-nginx
+    domain: apps.vkpr.net
+    hosted_zone_id: Z0588229N2Y5ZB0SPHUM
+    rolearn: arn:aws:iam::001407676048:role/admin-pipeline-2 
+    #vpc: xpto-vpc
+    nginx: false
     cert_manager_issuer_type: staging
-    cert_manager_email: valber@teste.com
+    cert_manager_email: vjunior@vertigo.com.br
     public_subnets:
     - "10.50.1.0/24"
     - "10.50.2.0/24"
