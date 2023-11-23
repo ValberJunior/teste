@@ -27,6 +27,6 @@ metadata:
     github.com/project-slug: ValberJunior/Enviroment1
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: devops
+  type: domain
   lifecycle: experimental
   owner: "group:default/admin"
