@@ -13,7 +13,7 @@ metadata:
     hosted_zone_id: Z0588229N2Y5ZB0SPHUM
     rolearn: arn:aws:iam::001407676048:role/admin-pipeline-2 
     #vpc: xpto-vpc
-    nginx: false
+    nginx: 'false'
     cert_manager_issuer_type: staging
     cert_manager_email: vjunior@vertigo.com.br
     public_subnets:
