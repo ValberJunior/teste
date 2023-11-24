@@ -1,28 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Environment
 metadata:
-  name: "Enviroment-Platform"
+  name: "Enviroment_XPTO"
   environment:
-    k8s_version: 1.28
-    cidr_block: 10.50.0.0/16
-    instance_type: t3.small
-    capacity_type: 2
-    node_quantity: 8
-    max_node_quantity: 3
-    domain: apps.vkpr.net
-    hosted_zone_id: Z0588229N2Y5ZB0SPHUM
-    rolearn: arn:aws:iam::001407676048:role/admin-pipeline-2 
-    nginx: 'false'
-    cert_manager_issuer_type: staging
-    cert_manager_email: vjunior@vertigo.com.br
-    public_subnets:
-    - "10.50.1.0/24"
-    - "10.50.2.0/24"
-    - "10.50.3.0/24"
-    private_subnets: 
-    - "10.50.4.0/24"
-    - "10.50.5.0/24"
-    - "10.50.6.0/24" 
+    dev:
+      stage: dev
+      domain: homolog-vee.codes
+      hosteZoneId: SD3o543i5o656
+      vpc: vee-code-vpc
+      certManagerEmail: teste@vee.codes
+      certManagerIssuerTpe: staging
+    prod:
+      stage: prod
+      domain: vee.codes
+      hosteZoneId: FD3o543i5o656
+      vpc: vee-code-prod-vpc
+      certManagerEmail: prod@vee.codes
+      certManagerIssuerTpe: production   
   annotations:
     github.com/project-slug: ValberJunior/Enviroment1
     backstage.io/techdocs-ref: dir:.
