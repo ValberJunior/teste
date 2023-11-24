@@ -8,7 +8,9 @@ metadata:
     hosteZoneId: FD3o543i5o656
     vpc: vee-code-prod-vpc
     certManagerEmail: prod@vee.codes
-    certManagerIssuerTpe: production   
+    certManagerIssuerTpe: production
+    custers:
+      - ClusterA
   annotations:
     github.com/project-slug: ValberJunior/Enviroment1
     backstage.io/techdocs-ref: dir:.
