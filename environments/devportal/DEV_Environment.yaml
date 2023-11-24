@@ -14,5 +14,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: dev
-  lifecycle: experimental
+  lifecycle: development
   owner: "group:default/admin"
