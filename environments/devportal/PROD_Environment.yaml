@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: "Prod_Enviroment"
+  environment:
+    stage: prod
+    domain: vee.codes
+    hosteZoneId: FD3o543i5o656
+    vpc: vee-code-prod-vpc
+    certManagerEmail: prod@vee.codes
+    certManagerIssuerTpe: production   
+  annotations:
+    github.com/project-slug: ValberJunior/Enviroment1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: dev
+  lifecycle: experimental
+  owner: "group:default/admin"

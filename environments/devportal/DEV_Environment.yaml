@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: "Dev_Enviroment"
+  environment:
+    stage: dev
+    domain: homolog-vee.codes
+    hosteZoneId: SD3o543i5o656
+    vpc: vee-code-vpc
+    certManagerEmail: teste@vee.codes
+    certManagerIssuerTpe: staging
+  annotations:
+    github.com/project-slug: ValberJunior/Enviroment1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: dev
+  lifecycle: experimental
+  owner: "group:default/admin"
