@@ -3,7 +3,6 @@ kind: Environment
 metadata:
   name: "Prod_Enviroment"
   environment:
-    stage: prod
     domain: vee.codes
     hosteZoneId: FD3o543i5o656
     vpc: vee-code-prod-vpc
