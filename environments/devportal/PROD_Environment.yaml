@@ -9,8 +9,6 @@ metadata:
     vpc: vee-code-prod-vpc
     certManagerEmail: prod@vee.codes
     certManagerIssuerTpe: production
-    custers:
-      - ClusterA
   annotations:
     github.com/project-slug: ValberJunior/Enviroment1
     backstage.io/techdocs-ref: dir:.
