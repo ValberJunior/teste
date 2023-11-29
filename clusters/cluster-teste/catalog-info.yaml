@@ -16,5 +16,5 @@ spec:
   type: devops
   lifecycle: experimental
   owner: "group:default/admin"
-  dependsOn: ['environment:Platform_Environment']
+  dependsOn: ["environment:default/enviroment_ecs"]
   
