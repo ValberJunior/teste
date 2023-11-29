@@ -17,3 +17,4 @@ spec:
   lifecycle: experimental
   owner: "group:default/admin"
   dependsOn: ['environment:Environment_Ecs']
+  #subComponentOf: 'environment:Environment_Ecs'
