@@ -15,5 +15,5 @@ metadata:
 spec:
   type: devops
   lifecycle: experimental
-  owner: "group:default/admin"
-  dependsOn: ["environment:default/enviroment_ecs"]
+  owner: "group:default/infra"
+  dependsOn: ["environment:enviroment_eks"]
