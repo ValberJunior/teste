@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Environment
 metadata:
-  name: "Prod_Enviroment"
+  name: "Platform_Enviroment"
   environment:
     domain: vee.codes
     hosteZoneId: FD3o543i5o656
@@ -13,5 +13,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: prod
-  lifecycle: production
+  lifecycle: development
   owner: "group:default/admin"
