@@ -15,4 +15,3 @@ spec:
   type: service
   lifecycle: development
   owner: "group:default/admin"
-  dependsOn: ['cluster:ClusterA']
