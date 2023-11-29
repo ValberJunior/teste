@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Cluster
+metadata:
+  name: "Cluster-teste"
+  environment:
+    domain: test.com
+    hostedZoneId: sfdfsjfs
+    vpc: xpto-vpc
+    certManagerIssuerType: staging
+    certManagerEmail: valber@teste.com
+  annotations:
+    github.com/project-slug: ValberJunior/teste/cluters/cluster-teste
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
+  dependsOn: ['environment:Platform_Environment']
+  

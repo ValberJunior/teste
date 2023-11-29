@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Environment
 metadata:
-  name: "Platform_Enviroment"
+  name: "Enviroment_Eks"
   environment:
     domain: vee.codes
     hosteZoneId: FD3o543i5o656
