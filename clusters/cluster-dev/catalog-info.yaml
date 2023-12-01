@@ -11,7 +11,7 @@ metadata:
   annotations:
     github.com/project-slug: ValberJunior/ClusterA
     backstage.io/techdocs-ref: dir:.
-    veecode/cluster-name: "teste-kubernetes"
+    #veecode/cluster-name: "teste-kubernetes"
     github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
 spec:
   type: devops
