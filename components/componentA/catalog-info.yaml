@@ -13,7 +13,7 @@ metadata:
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
   annotations:
-    github.com/project-slug: ValberJunior/teste
+    #github.com/project-slug: ValberJunior/teste
     backstage.io/techdocs-ref: dir:.   
 spec:
   type: website
