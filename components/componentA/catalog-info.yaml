@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ComponentA"
+  description: "An example of Component"
+  links:
+    - title: Website
+      url: https://www.globo.com/
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: ValberJunior/teste
+    backstage.io/techdocs-ref: dir:.   
+spec:
+  type: website
+  lifecycle: prod
+  owner: "admin"
